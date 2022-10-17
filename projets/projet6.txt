@@ -1,0 +1,20 @@
+Projet 6 ecrit par Joseph Makhol. 
+
+1.  Il existe deux types de variables en Java, le type primitif et le type de référence. 
+    Tous les types de base, par ex. int, boolean, char, short, float, long et double sont appelés types primitifs. 
+    Java les traite différemment des types de référence, qui sont utilisés pour
+    pointer des objets, par ex. String, Thread, File et autres.
+    La différence principale entre le type primitif et le type de référence est que le type primitif a toujours une valeur, 
+    il ne peut jamais être "null" mais le type de référence peut être "null". 
+    
+2.  A)  Une copie superficielle d'une collection est une copie de la structure de la collection, pas des éléments.
+        Avec une copie superficielle, deux collections partagent les éléments individuels. 
+        Aussi, les copies superficielles dupliquent le moins de chose possible. 
+    B)  Une copie complète d'une collection est constituée de deux collections avec tous les éléments de la 
+        collection d'origine dupliqués. C'est a dire que les copies profondes reproduisent tout. 
+
+3)  Un exemple de ceci peut etre que si vous créez une variable primitive de type int et oubliez de l'initialiser, 
+    sa valeur serait 0, la valeur par défaut du type intégral en Java, mais une variable de référence 
+    par défaut a une valeur "null", ce qui signifie qu'aucune référence ne lui est assignée.
+
+

@@ -1,0 +1,28 @@
+1.  Les méthodes privées en Java peuvent être appliquées aux member field, method or nested class en Java. 
+    Vous ne pouvez pas utiliser le modificateur private sur une classe de niveau supérieur car 
+    les variables, méthodes et classes privées ne sont accessibles que sur la classe sur laquelle elles sont déclarées. 
+    Private est la forme la plus élevée d'encapsulation. La meilleure pratique lors du codage en Java consiste à déclarer 
+    la méthode privée par défaut. La méthode privée ne peut être appelée qu'à partir de la classe à partir de laquelle 
+    elle a été déclarée.
+
+2.  Public est le modificateur d'accès le moins restrictif dans Java. Quand on rend la variable de classe ou 
+    d'instance publique on désobéit le principe d'encapsulation, qui est de qualité inférieure et affecte gravement 
+    la maintenance. Au lieu de cela, rendez-le privé et fournissez un public getter and setter. En outre, le modificateur 
+    public peut également être appliqué à une classe de niveau supérieur. En Java, le nom du fichier doit être le même que 
+    la classe publique déclarée dans le fichier.
+
+3.  Puisqu'un objet est une partie spécifique à l'intérieur de la classe utilisée pour réaliser une certaine partie 
+    du programme, on peut facilement produire des calculs en continu. Cela dit, on peut déclencher cette commande dans 
+    une boucle qui répète le processus d'exécution de ces calculs et donner une commande interactive 
+    pour créer x nombre de calculs indiquant un calcul. 
+
+4.
+
+A.  Une trie qui est définie dans la bibliothèque standard est la plus efficace car c’est un log linéaire sort 
+    utiliser pour les tries primitifs. Une code avec un trie qui est définie dans la bibliothèque standard peut tirer 
+    à peu près 20 000 valeurs en moins d'une seconde. On peut voir que celui de la bibliothèque standard est beaucoup
+    plus efficace. 
+
+B.  L’idée est que tu dois t’assurer que le code fonctionne et qu' il n’y a pas de problème technique. 
+    Assure-toi de relier le code et de t'assurer que tout est fait d’une excellente façon. Si tu as fait une erreur, 
+    l' App que t’utilise est capable de le détecter et te dire ou exactement, à quelle ligne l'erreur est. 

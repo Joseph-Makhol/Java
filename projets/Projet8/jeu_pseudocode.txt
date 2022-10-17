@@ -1,0 +1,15 @@
+Voici la description du jeux bonhomme pendu et le pseudocode!
+
+Ce code est destiner à créer un jeu de pendu simple et amusant auquel vous pouvez jouer dans la console de votre logiciel de codage. 
+Le pendu est essentiellement un jeu pour deux dans lequel un joueur essaie de deviner les lettres d'un mot (Club de football dans notre cas),
+et les mauvais essais sont enregistrées en dessinant un parti du corps qui pend, ligne par ligne. Dans notre cas,
+vous avez plusieurs vies (essais). Si vous ne devinez pas le mot juste au cours de ces tentatives, vous perdez, et le jeu redémarre.
+
+Pour commencer, j'ai mis des variables dans mon code pour pouvoir les utiliser plus tard et me faciliter la vie. Par exemple,
+l'une de mes variables contient tous les clubs de football disponibles pour que le joueur tente de deviner. Après cela, 
+j'ai créé une section où les astrix cachent le mot que le joueur va deviner. De plus, j'ai demandé a l'utilisateur de deviner une lettre 
+aléatoire en utilisant la commande input.next. En plus de cela, j'ai ajouté des vies. Si vous choisissez la bonne lettre, le programme 
+vous fera automatiquement deviner une autre lettre sans vous enlever une vie. Mais, si vous avez choisi une mauvaise lettre, le programme enlèvera 
+1 vie et affichera un message qui te dit de reessayer. Pour finir, j'ai créé 2 fins possibles à mon code en utilisant les commandes if et break. 
+Si vous devinez le club correctement, le code se brisera et il imprimera un message disant "Bravo! vous avez deviné le club de Football.". 
+Si vous perdez toutes vos vies, le code imprimera un message disant "Tu as perdu. Le club était:" + le club que tu devais deviner.

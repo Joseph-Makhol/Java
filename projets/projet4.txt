@@ -1,0 +1,20 @@
+Paradigme Impératif: C’est un paradigme dans lequel il y aura des opérations qui seront donné comme une marche à suivre ou comme des instructions 
+qui seront exécutés par l'ordinateur afin d'altérer l'état du programme.
+
+Paradigme procédural: Ceci est une procédure qui contient des séries d'étapes qui seront complétés. Toutes les procédures peuvent être appelées et exécutées à n'importe quelle étape du programme. 
+Les exemples de langage informatique: BASIC, ColdFusion, COBOL, etc.
+
+Paradigme orienté objet: Il s’agit d’une structure interne qui possède un comportement qui sait interagir avec ses pairs. Il représente ces objets 
+et leurs relations; l'interaction entre les objets par leurs relations permet de concevoir et réaliser les fonctionnalités prévu et mieux résoudre le ou 
+les problématiques. C’est donc vrai que l'étape de modélisation décor une importance majeure et nécessaire pour ce paradigme. C'est elle qui permet de mettre les éléments réels en forme virtuelle. 
+De plus, la programmation par objet consiste à utiliser des techniques de programmation dédiées aux mouvements des objets comme tels. 
+Les exemples de langage informatique: C++, Python et Java.
+
+
+Paradigme Fonctionnelle: Elle fait contrairement à ce que le paradigme Impératif fait. 
+La programmation fonctionnelle est un paradigme de programmation de type déclaratif qui considère le calcul en tant qu'évaluation de fonctions mathématiques.
+Les exemples de langage informatique: PureScript, CDuce, etc. 
+Un exemple de ceci serait: 
+f(x) = 2*(x+5)
+Int a = f(2)
+Cela fait en sorte que le programme remplace le x dans l'équation par le 2.
